@@ -1,6 +1,5 @@
 import { AnnotationOptions } from "chartjs-plugin-annotation";
 import { Bar } from "react-chartjs-2";
-import React from "react";
 
 export const Pipeline = ({
   stages,

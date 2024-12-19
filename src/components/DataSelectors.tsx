@@ -1,5 +1,3 @@
-import React from "react";
-
 type TSelectorProps = {
   roles: string[];
   sources: string[];

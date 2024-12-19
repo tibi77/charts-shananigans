@@ -1,5 +1,3 @@
-import React from "react";
-
 type KeyMetricsProps = {
   metrics: {
     totalCandidates: number;

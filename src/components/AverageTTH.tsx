@@ -1,4 +1,3 @@
-import React from "react";
 import { AnnotationOptions } from "chartjs-plugin-annotation";
 import { Line } from "react-chartjs-2";
 
