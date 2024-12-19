@@ -17,7 +17,7 @@ export const PipelineByRole = ({
   pipelineData: TPipelineData;
 }) => {
   return (
-    <div className="bg-white p-6 rounded-lg shadow mb-8">
+    <div className="bg-[#242424]  p-6 rounded-lg shadow mb-8">
       <h2 className="text-xl font-semibold mb-4">Pipeline by Stage and Role</h2>
       <Bar
         data={pipelineData}

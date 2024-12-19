@@ -1,13 +1,22 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2016",
+    "sourceMap": true,
     "strict": true,
-    "jsx": "react",
-    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noEmitOnError": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "baseUrl": ".",
   },
-  "include": ["src"]
+  "include": [
+    "src"
+  ]
 }
